@@ -1,0 +1,148 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Istok Web', sans-serif;
+  font-size: 14px;
+  color: #4b3f55;
+  background: #fff;
+  line-height: 1.3;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  background: rgba(119, 91, 163, 0.63);
+  border-top: 3px solid #a997c5;
+}
+
+.header .active {
+  border-bottom: 2px solid #f8e1b4;
+}
+
+.login-btn {
+  color: #4b3f55;
+}
+
+.main-carousel .carousel-indicators [data-bs-target] {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.main-carousel .carousel-indicators .active {
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  margin-top: 2px;
+}
+
+.text-red {
+  color: #910c17;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.text-dark-red {
+  color: #4b3f55;
+}
+
+.text-light-success {
+  color: #9ac9b0;
+  font-size: 15px;
+}
+
+.service-title {
+  border-top: 3px solid #9ac9b0;
+  border-bottom: 3px solid #9ac9b0;
+}
+
+.small-text {
+  font-size: 12px;
+}
+
+.text-darvio {
+  color: #4b3f55;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.btn-pink {
+  color: #fff;
+  background: #ea4c88;
+}
+
+.bi-twitter {
+  color: #fff;
+}
+
+.utube {
+  background-color: #c70c0c;
+}
+
+.bg-violet {
+  background: #775ba3;
+}
+
+.col-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.col-subtitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.features-text {
+  font-weight: 400;
+}
+
+.client-link {
+  display: inline-block;
+  border-radius: 50%;
+  border: 4px solid #91c5a9;
+  padding: 6px;
+}
+
+.client-link img {
+  border-radius: 50%;
+}
+
+.comment-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.commented {
+  color: #7e63a8;
+  font-size: 11px;
+}
+
+.bi {
+  color: #91c5a9;
+}
+
+.comment-carousel .carousel-indicators [data-bs-target] {
+  width: 8px;
+  height: 8px;
+  border: 2px solid #91c5a9;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.comment-carousel .carousel-indicators .active {
+  width: 6px;
+  height: 6px;
+  background: #91c5a9;
+  margin-top: 2px;
+}

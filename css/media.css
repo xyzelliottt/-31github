@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+
+  .col-title {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .service-text {
+    padding: 0 36px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .service-text {
+    padding: 0 118px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .service-text {
+    padding: 0 218px;
+  }
+}

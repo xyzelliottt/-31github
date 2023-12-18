@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'hw-18-fonts';
+  src:
+    url('fonts/hw-18-fonts.ttf?6yem8b') format('truetype'),
+    url('fonts/hw-18-fonts.woff?6yem8b') format('woff'),
+    url('fonts/hw-18-fonts.svg?6yem8b#hw-18-fonts') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'hw-18-fonts' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-users:before {
+  content: "\e900";
+}
+.icon-group:before {
+  content: "\e900";
+}
+.icon-team:before {
+  content: "\e900";
+}
+.icon-members:before {
+  content: "\e900";
+}
+.icon-community:before {
+  content: "\e900";
+}
+.icon-collaborate:before {
+  content: "\e900";
+}
+.icon-road:before {
+  content: "\e901";
+}
+.icon-asphalt:before {
+  content: "\e901";
+}
+.icon-travel:before {
+  content: "\e901";
+}
+.icon-leaf:before {
+  content: "\e902";
+}
+.icon-nature:before {
+  content: "\e902";
+}
+.icon-plant:before {
+  content: "\e902";
+}
+.icon-tea:before {
+  content: "\e902";
+}
+.icon-green:before {
+  content: "\e902";
+}
+.icon-vegan:before {
+  content: "\e902";
+}
+.icon-vegetarian:before {
+  content: "\e902";
+}
+.icon-home:before {
+  content: "\e903";
+}
+.icon-house:before {
+  content: "\e903";
+}
